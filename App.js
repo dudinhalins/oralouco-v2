@@ -29,7 +29,7 @@ export default function App() {
           duration: 800,
           useNativeDriver: true,
         }).start(() => setPrevisao(null));
-      }, 5000); // tempo visível da profecia
+      }, 10000); // tempo visível da profecia hihihihhi deixei 10s!
     } catch (err) {
       console.error('Erro ao buscar profecia:', err);
     }
