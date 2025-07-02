@@ -12,7 +12,7 @@ export default function App() {
     fadeAnim.setValue(0);
 
     try {
-      const res = await fetch('http://10.145.6.60:3000/api/previsao');
+      const res = await fetch('https://oralouco-api.onrender.com/api/previsao');
       const data = await res.json();
       setPrevisao(data);
 
